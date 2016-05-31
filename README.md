@@ -19,7 +19,9 @@ By default when running this application it will start the TCP server on port 55
 -p  --port          The port that you want to tie the server to. Default is 5551.
 ```
 
-So, for example, to tie the service to port 5555 on localhost you would run the following: `open /Applications/FlicServiceBeta.app --args --interface localhost --port 5555`
+So, for example, to tie the service to port 5555 on localhost you would run the following:
+
+`open /Applications/FlicServiceBeta.app --args --interface localhost --port 5555`
 
 **Compatibility**
 
@@ -42,11 +44,12 @@ The following fields in the EvtGetInfoResponse:
 * `current_pending_connections`
 * `currently_no_space_for_new_connection`
 
-For now you can ignore these fields.
+For now you can ignore those fields.
 
 **Clients**
 
 A few client libs are available [here](https://github.com/50ButtonsEach/fliclib-linux-hci/tree/master/clientlib).
+
 A simple client implementation can be found [here](https://github.com/50ButtonsEach/fliclib-linux-hci/tree/master/simpleclient).
 
 
