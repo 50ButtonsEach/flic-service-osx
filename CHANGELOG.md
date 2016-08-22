@@ -1,4 +1,4 @@
-#flic-service-osx 0.0.2
+#flic-service-osx 0.0.3
 
 **Changes**
 
